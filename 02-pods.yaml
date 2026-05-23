@@ -1,3 +1,17 @@
+appVersion: v1
+kind: ConfigMap
+metadata:
+  name: pod-config
+  labels:
+    project: roboshop
+    env: dev
+data:
+  COURSE: "devops"
+  DURATION: "120hrs"
+  TRAINER: "siva"
+
+----  
+
 apiVersion: v1
 kind: Pod
 metadata:
