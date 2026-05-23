@@ -6,6 +6,6 @@ metadata:
     project: roboshop
     env: dev
 data:
-  coure: "devops"
-  duraion: "120hrs"
-  trainer: "siva"    
+  COURSE: "devops"
+  DURATION: "120hrs"
+  TRAINER: "siva"
