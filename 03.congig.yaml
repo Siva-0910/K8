@@ -1,0 +1,11 @@
+appVersion: v1
+kind: CongigMap
+metadata:
+  name: configmap
+  labels:
+    project: roboshop
+    env: dev
+data:
+  coure: "devops"
+  duraion: "120hrs"
+  trainer: "siva"    
