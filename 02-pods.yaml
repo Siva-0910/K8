@@ -10,7 +10,7 @@ data:
   DURATION: "120hrs"
   TRAINER: "siva"
 
-----  
+---  
 
 apiVersion: v1
 kind: Pod
