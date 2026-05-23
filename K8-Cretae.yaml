@@ -7,6 +7,6 @@ metadata:
 
 managedNodeGroups:
   - name: roboshop
-    instanceTypes: ["t3.micro", "t2.micro"]
+    instanceTypes: ["t3.small"]
     desiredCapacity: 2
     spot: true
