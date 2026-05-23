@@ -1,5 +1,5 @@
 appVersion: v1
-kind: CongigMap
+kind: ConfigMap
 metadata:
   name: pod-config
   labels:
