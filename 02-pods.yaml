@@ -11,7 +11,7 @@ spec:
     image: nginx
     envFrom:
       - configMapRef:
-          name: pod-congig
+          name: pod-config
     resources:
       requests:
         memory: "68Mi"
