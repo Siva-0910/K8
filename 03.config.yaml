@@ -1,7 +1,7 @@
 appVersion: v1
 kind: ConfigMap
 metadata:
-  name: 01pod-config
+  name: pod-config
   labels:
     project: roboshop
     env: dev
