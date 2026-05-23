@@ -10,7 +10,7 @@ spec:
   - name: nginx
     image: nginx
     envFrom:
-      - congigMapRef:
+      - configMapRef:
           name: pod-congig
     resources:
       requests:
