@@ -10,7 +10,7 @@ spec:
    purpose: nodeport-demo
    project: roboshop
    env: dev
-ports:
+  ports:
   - protocol: TCP
     port: 80
     targertPort: 80
