@@ -10,10 +10,10 @@ spec:
     name: loadbalancer-demo
     project: roboshop
     env: dev
-ports:
- - protocol: TCP
-   port: 80
-   targerPort: 80
+  ports:
+   - protocol: TCP
+     port: 80
+     targerPort: 80
 
 ---
 
