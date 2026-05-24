@@ -15,12 +15,12 @@ spec:
       env: dev
 
   template:
-   metadata:
-    labels:
-      name: rs
-      project: roboshop
-      env: dev
-  spec:
-   containers:
-   - name: nginx
-     image: nginx        
+    metadata:
+      labels:
+        name: rs
+        project: roboshop
+        env: dev
+    spec:
+    containers:
+    - name: nginx
+      image: nginx        
