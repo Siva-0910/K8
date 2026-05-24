@@ -20,7 +20,7 @@ ports:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-NodePort
+  name: nginx-nodeport
   labels:
     purpose: nodeport-demo
     project: roboshop
