@@ -10,17 +10,17 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-    name: rs
-    project: roboshop
-    env: dev
+      name: rs
+      project: roboshop
+      env: dev
 
 template:
   metadata:
     labels:
-    name: rs
-    project: roboshop
-    env: dev
+      name: rs
+      project: roboshop
+      env: dev
 spec:
-  - containers:
-    name: nginx
+  containers:
+  - name: nginx
     image: nginx        
