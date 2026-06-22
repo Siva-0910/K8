@@ -11,14 +11,14 @@ spec:
       project: roboshop
       purpose: replica-demo
       env: dev
-template:
-  metadata:
-    name: nginx-replica
-    labels:
-      project: roboshop
-      purpose: replica-demo
-      env: dev
-  spec:
-    containers:
-    - name: nginx
-      image: nginx    
+  template:
+    metadata:
+      name: nginx-replica
+      labels:
+        project: roboshop
+        purpose: replica-demo
+        env: dev
+    spec:
+      containers:
+      - name: nginx
+        image: nginx    
