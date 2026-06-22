@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata: 
-  name: roboshop-Pod
+  name: roboshop-pod
   labels:
     purpose: robo-pod
     project: roboshop
