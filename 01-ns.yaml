@@ -5,13 +5,3 @@ metadata:
   labels:
     project: roboshop
     env: dev
----
-
-apiVersion: v1
-kind: Pod
-metadata:
-  namespace: roboshop-ns
-  name: roboshop-pod
-  labels:
-    project: roboshop
-    env: dev
