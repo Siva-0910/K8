@@ -1,0 +1,16 @@
+apiversion: v1
+kind: Pod
+metadata: 
+  name: env-demo
+  labels: 
+    purpose: env-demorobo
+    env: dev
+    project: roboshop
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    env:
+    course: "devops"
+    duration: "120hr"
+    trainer: "siva"    
