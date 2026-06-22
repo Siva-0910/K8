@@ -10,6 +10,7 @@ metadata:
 apiVersion: V1
 kind: Pod
 metadata:
+  namespace: roboshop-ns
   name: roboshop-pod
   labels:
     project: roboshop
