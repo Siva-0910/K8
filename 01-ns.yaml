@@ -12,6 +12,5 @@ kind: Pod
 metadata:
   name: roboshop-pod
   labels:
-    name: roboshop-pod
     project: roboshop
     env: dev
