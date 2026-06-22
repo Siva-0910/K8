@@ -7,7 +7,7 @@ metadata:
     env: dev
 ---
 
-apiVersion: v1
+apiVersion: V1
 kind: Pod
 metadata:
   name: roboshop-pod
