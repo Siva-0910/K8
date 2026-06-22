@@ -11,6 +11,7 @@ spec:
   - name: nginx
     image: nginx
     env:
-      course: "devops"
-      duration: "120hr"
-      trainer: "siva"    
+    - name: course
+      value: "k8"
+    - name: trainer
+      value: "siva"      
