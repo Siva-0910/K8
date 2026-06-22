@@ -11,4 +11,4 @@ spec:
   - name: nginx
     image: nginx 
   - name: almalinux
-    iamge: almalinux:9   
+    image: almalinux:9   
